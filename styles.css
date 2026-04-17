@@ -244,8 +244,8 @@ p { text-wrap: pretty; max-width: 65ch; }
   align-items: center;
   gap: var(--space-2);
   padding: 0.65rem 1.25rem;
-  background: var(--color-primary);
-  color: var(--color-text-inverse);
+  background: var(--color-accent);
+  color: #ffffff;
   border: 1px solid transparent;
   border-radius: var(--radius-full);
   font-size: var(--text-sm);
@@ -255,12 +255,20 @@ p { text-wrap: pretty; max-width: 65ch; }
               border-color var(--transition);
 }
 .nav-cta:hover {
-  background: var(--color-primary-hover);
-  color: var(--color-text-inverse);
+  background: var(--color-accent-hover);
+  color: #ffffff;
   transform: translateY(-2px);
   box-shadow: var(--shadow-md);
 }
 .nav-cta::after { display: none; }
+[data-theme="dark"] .nav-cta {
+  background: var(--color-accent);
+  color: var(--color-text-inverse);
+}
+[data-theme="dark"] .nav-cta:hover {
+  background: var(--color-accent-hover);
+  color: var(--color-text-inverse);
+}
 
 .theme-toggle {
   width: 36px; height: 36px;
