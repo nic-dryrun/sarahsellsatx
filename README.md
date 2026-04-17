@@ -6,7 +6,7 @@ The personal website for **Sarah Lechner**, realtor with Magnolia Realty and The
 
 ## What's inside
 
-A fast, modern, single-page static site — no framework, no build step. Deployable anywhere that serves static HTML.
+A fast, modern, single-page static site with no framework and no build step. Deployable anywhere that serves static HTML.
 
 ```
 sarahsellsatx/
@@ -49,7 +49,7 @@ This site is hosted via **GitHub Pages** from the `main` branch. Any push to `ma
 1. Go to **Settings → Pages**
 2. Under **Source**, select **Deploy from a branch**
 3. Branch: `main`, Folder: `/ (root)`
-4. Save — your site will publish at `https://<username>.github.io/sarahsellsatx/`
+4. Save, and your site will publish at `https://<username>.github.io/sarahsellsatx/`
 
 ### Custom domain
 
