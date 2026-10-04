@@ -128,6 +128,8 @@
 .oh-form-section {
   background: #2d3319;
   color: #f6f0e2;
+  --color-accent: #d9cfab;
+  --color-accent-hover: #efe6c8;
 }
 .oh-form-section .eyebrow { color: #f6f0e2; opacity: 0.9; }
 .oh-form-section .eyebrow::before, .oh-form-section .eyebrow::after { background: #f6f0e2; opacity: 0.9; }
@@ -170,7 +172,7 @@
   transition: border-color var(--transition), background var(--transition);
 }
 .oh-radio-group input { accent-color: var(--color-accent); }
-.oh-radio-group label:has(input:checked) { border-color: var(--color-accent); background: rgba(194,123,108,0.18); }
+.oh-radio-group label:has(input:checked) { border-color: var(--color-accent); background: rgba(28,28,23,0.07); }
 
 .oh-form .btn--accent { width: 100%; justify-content: center; padding: 1rem; font-size: var(--text-base); margin-top: var(--space-2); }
 .oh-form-note { text-align: center; font-size: var(--text-xs); color: rgba(246,240,226,0.55); margin-top: var(--space-1); }
@@ -229,18 +231,19 @@
 
 /* ----- Luxury section accent ----- */
 .oh-luxury { background: #3f4826; color: #f6f0e2; }
-.oh-luxury .eyebrow { color: var(--color-accent); }
+.oh-luxury .eyebrow { color: #d9cfab; }
+.oh-luxury .eyebrow::before { background: #d9cfab; }
 .oh-luxury .oh-group-header h2 { color: #f6f0e2; }
-.oh-luxury .oh-group-header h2 em { color: #d99a8b; }
+.oh-luxury .oh-group-header h2 em { color: #d9cfab; }
 .oh-luxury .oh-group-header p { color: rgba(246,240,226,0.75); }
 .oh-luxury .oh-home-card { background: rgba(246,240,226,0.06); border-color: rgba(246,240,226,0.18); }
-.oh-luxury .oh-home-card:hover { border-color: #d99a8b; }
+.oh-luxury .oh-home-card:hover { border-color: #d9cfab; }
 .oh-luxury .oh-home-card .addr { color: #f6f0e2; }
 .oh-luxury .oh-home-card .price { color: #e8d9b0; }
 .oh-luxury .oh-home-card .specs { color: rgba(246,240,226,0.7); }
 .oh-luxury .oh-home-card .plan { color: rgba(246,240,226,0.5); }
 .oh-luxury .oh-home-card .status { background: rgba(246,240,226,0.15); color: #f6f0e2; }
-.oh-luxury .oh-home-card .status.soon { background: rgba(217,154,139,0.25); color: #f3d9d2; }
+.oh-luxury .oh-home-card .status.soon { background: rgba(217,207,171,0.25); color: #f2ecd6; }
 .oh-luxury .btn--ghost { border-color: rgba(246,240,226,0.35); color: #f6f0e2; }
 .oh-luxury .btn--ghost:hover { border-color: #f6f0e2; color: #f6f0e2; background: rgba(246,240,226,0.1); }
 
